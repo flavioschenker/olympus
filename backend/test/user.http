@@ -1,0 +1,14 @@
+GET http://localhost:8000/users/
+###
+OPTIONS http://localhost:8000/users/user_01KBWV112Z47REQRJ4NFHAA1T8
+
+###
+POST http://localhost:8000/users/
+Content-Type: application/json
+
+{
+    "first_name": "testuser",
+    "last_name": "tester",
+    "email": "testuser@example.com",
+    "password": "securepassword"
+}
