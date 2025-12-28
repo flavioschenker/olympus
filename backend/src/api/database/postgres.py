@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 
 # This is your PostgreSQL connection string, adjust based on your Docker setup
 # e.g., 'postgresql://user:password@host:port/dbname'
-DATABASE_URL = "postgresql://olympus_user:olympus_password@postgres:5432/olympus_db"
+DATABASE_URL = "postgresql://user:password@postgres:5432/olympus_db"
 
 # Create the SQLAlchemy engine
 engine = create_engine(DATABASE_URL)
