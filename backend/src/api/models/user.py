@@ -1,4 +1,3 @@
-import uuid
 from sqlalchemy import Column, Integer, String
 from api.database import Base
 from api.utils import generate_public_id
